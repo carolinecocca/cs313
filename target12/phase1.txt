@@ -1,0 +1,4 @@
+/* padding for buffer size of 24 bytes */
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+/* address of touch1 */
+79 16 40 00 00 00 00 00

